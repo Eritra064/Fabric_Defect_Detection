@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+/*   display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center; */
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 40px;
+  /* background-color: #a09a9a; */
+  background-image: url('/static/bundle2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0); */
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.box{
+  border-radius: 20px;
+  /* border: 2px solid #b71313 */
+  background-color: rgba(225, 212, 212, 0.945);
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.h3.mb-3{
+  font-weight: 600;
+}
